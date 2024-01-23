@@ -20,6 +20,49 @@
 	display: grid;
 	grid-template-columns: 0.2fr 1fr 0.2fr;
 }
+/* article {
+	width: 30em;
+	margin: 0em auto;
+	padding: 0.5em;
+	border: 1px solid #d9d9d9;
+	position: relative;
+	text-align: justify;
+}
+
+div {
+	width: 6em;
+	height: 6em;
+	float: inline-end;
+	padding: 2em;
+	margin: 0 2em 0 0;
+	opacity: 0.25;
+	border-radius: 50%;
+	border: 2em solid #000;
+	background-color: #6ab150;
+	background-clip: content-box;
+}
+
+.margin div {
+	shape-outside: margin-box;
+}
+
+.border div {
+	shape-outside: border-box;
+}
+
+.padding div {
+	shape-outside: padding-box;
+}
+
+.content div {
+	shape-outside: content-box;
+}
+
+h4 {
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+} */
 .rotatey {
 	transform: rotateY(180deg);
 }
