@@ -20,6 +20,9 @@
 	display: grid;
 	grid-template-columns: 0.2fr 1fr 0.2fr;
 }
+.rotatey {
+	transform: rotateY(180deg);
+}
 
 @layer utilities {
 	.text-balance {

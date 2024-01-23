@@ -1,31 +1,13 @@
 import Image from "next/image";
+import BorderMain from "@/components/BorderMain";
+import HomePage from "@/components/Home";
 
 export default function Home() {
-	const sizeImg = 300;
 	return (
 		<div className="h-full w-full  layoutFirstPage ">
-			<div className="bg-[#063457b7]">
-				<Image
-					className=""
-					src="/svg/palm.svg"
-					width={200}
-					height={200}
-					alt=""
-				/>
-			</div>
-			<div className="bg-[#063457] ">
-				<header className=" w-full flex  justify-center  ">
-					<Image
-						src="/svg/sweethomelogo.svg"
-						width={sizeImg}
-						height={sizeImg}
-						alt=""
-					/>
-				</header>
-				<main></main>
-				<footer></footer>
-			</div>
-			<div className="bg-[#063457b7]"></div>
+			<BorderMain rotate={false} /> {/* Bordes principales de la pagina */}
+			<HomePage />
+			<BorderMain rotate={true} /> {/* Bordes principales de la pagina */}
 		</div>
 	);
 }
